@@ -6,19 +6,20 @@
 
 ## 📌 Features
 
-- 🛒 **Player Shops:** Link a sign to a chest for automated trading between players.
-- 💎 **AdminShop Mode:** Create infinite server-side shops that don't require stock.
-- 🧹 **Auto-Formatting:** Automatically converts Item IDs to clean, readable names on signs.
-- 🛡️ **Grief Protection:** Only shop owners or admins can destroy shop signs.
-- 🎨 **Visual Cleanup:** Removes underscores and colons for a professional look.
+- 🛒 **Player Shops:** Link a sign to a chest for automated trading between players.  
+- 💎 **AdminShop Mode:** Create infinite server-side shops that don't require stock.  
+- 🧹 **Auto-Formatting:** Automatically converts Item IDs to clean, readable names on signs.  
+- 🛡️ **Grief Protection:** Only shop owners or admins can destroy shop signs.  
+- 🎨 **Visual Cleanup:** Removes underscores and colons for a professional look.  
 
 ---
 
 ## 📦 Installation
 
-1. Download **ItemShop.jar** and place it in your server’s `plugins/` folder.
-2. Start or restart your server.
-3. Use the sign format below to start creating shops!
+1. Download **ItemShop.jar** and place it in your server’s `plugins/` folder.  
+2. Start or restart your server.  
+3. **Important:** To create a standard `[Shop]`, you must have a **chest** placed behind or below the sign.  
+4. Use the sign format below to start creating shops!  
 
 ---
 
@@ -33,15 +34,17 @@ To create a shop, place a sign and use the following format:
 | **3** | `ID:Amount` | Item you want as **payment** |
 | **4** | *(Empty)* | Plugin will auto-fill the owner's name |
 
+> ℹ️ **Note:** Standard `[Shop]` signs **must** be attached to or placed on a chest. `[AdminShop]` signs do not require a chest.
+
 *Example: `264:1` on line 2 and `266:5` on line 3 will sell 1 Diamond for 5 Gold Ingots.*
 
 ---
 
 ## 🔑 Permissions
 
-- **itemshop.use** – Allows players to trade using signs (Default: true).
-- **itemshop.create** – Allows players to create their own shops (Default: op).
-- **itemshop.admin** – Allows creating AdminShops and destroying any shop (Default: op).
+- `itemshop.use` – Allows players to trade using signs (Default: true).  
+- `itemshop.create` – Allows players to create their own shops (Default: op).  
+- `itemshop.admin` – Allows creating AdminShops and destroying any shop (Default: op).  
 
 ---
 
