@@ -1,6 +1,6 @@
-📦 ItemShop
+🛒 ItemShop
 
-ItemShop is a lightweight CraftBukkit 1.4.6 plugin that allows players and administrators to create intuitive sign-based shops. It features automatic item name formatting, chest-linked inventories, and an infinite AdminShop mode. Compatible with bPermissions.
+ItemShop is a CraftBukkit 1.4.6 plugin that allows players and administrators to create intuitive sign-based shops. It features automatic item name formatting, chest-linked inventories, and an infinite AdminShop mode. Compatible with bPermissions.
 📌 Features
 
     🛒 Player Shops: Link a sign to a chest for automated trading between players.
@@ -13,7 +13,7 @@ ItemShop is a lightweight CraftBukkit 1.4.6 plugin that allows players and admin
 
     🎨 Visual Cleanup: Removes underscores and colons for a professional look.
 
-🚀 Installation
+📦 Installation
 
     Download ItemShop.jar and place it in your server’s plugins/ folder.
 
@@ -21,9 +21,9 @@ ItemShop is a lightweight CraftBukkit 1.4.6 plugin that allows players and admin
 
     Use the sign format below to start creating shops!
 
-📝 How to Create a Shop
+📝 Sign Format
 
-Place a sign on or above a chest and use this format:
+To create a shop, place a sign and use the following format:
 Line	Content	Description
 1	[Shop] or [AdminShop]	Type of the shop
 2	ID:Amount	Item you are selling
@@ -33,7 +33,7 @@ Line	Content	Description
 Example: 264:1 on line 2 and 266:5 on line 3 will sell 1 Diamond for 5 Gold Ingots.
 🔑 Permissions
 
-    itemshop.use – Allows players to trade using signs (Default: everyone).
+    itemshop.use – Allows players to trade using signs (Default: true).
 
     itemshop.create – Allows players to create their own shops (Default: op).
 
@@ -41,4 +41,4 @@ Example: 264:1 on line 2 and 266:5 on line 3 will sell 1 Diamond for 5 Gold Ingo
 
 📄 License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE for details.
+This plugin is distributed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE for details.
