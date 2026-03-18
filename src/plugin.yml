@@ -1,0 +1,15 @@
+name: ItemShop
+main: com.Vlkodlak.itemshop.ItemShop
+version: 1.0
+author: Vlkodlak148
+description: Simple Sign Shop plugin for Minecraft 1.4.6 with AdminShop support.
+permissions:
+  itemshop.create:
+    description: Allows creating player shops.
+    default: op
+  itemshop.use:
+    description: Allows using shops.
+    default: true
+  itemshop.admin:
+    description: Allows creating AdminShops and destroying any shop.
+    default: op
